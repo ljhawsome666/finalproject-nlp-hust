@@ -22,11 +22,10 @@
 
 安装依赖包：
 
-```bash
 pip install torch numpy
 
 数据
-使用《唐诗》文本数据进行训练。文件名为 poetryFromTang.txt，需放置在项目的根目录中。
+使用《唐诗》文本数据进行训练。文件名为 poetryFromTang.txt，需放置在项目的根目录中
 
 ## 项目结构
 
