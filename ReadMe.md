@@ -25,6 +25,9 @@
 ```bash
 pip install torch numpy
 
+数据
+使用《唐诗》文本数据进行训练。文件名为 poetryFromTang.txt，需放置在项目的根目录中。
+
 ## 项目结构
 
 项目根目录/
@@ -35,3 +38,34 @@ pip install torch numpy
 ├── requirements.txt       // 环境依赖
 └── README.md              // 项目说明文档
 
+## 安装和运行
+
+安装步骤
+
+克隆项目代码：
+
+git clone https://github.com/ljhawsome666/finalproject-nlp-hust.git
+进入项目目录：
+
+cd yourproject
+安装依赖包：
+
+pip install -r requirements.txt
+
+## 运行模型训练
+
+python main.py
+
+## 使用说明
+
+调整 main.py 文件中的参数：
+
+batch_size
+seq_length
+n_hidden
+n_layers
+epochs
+lr
+model_type
+
+训练过程中将输出训练和验证损失以及困惑度。
